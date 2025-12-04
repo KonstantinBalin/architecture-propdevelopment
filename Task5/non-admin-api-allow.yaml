@@ -1,0 +1,114 @@
+---
+# Allow All Egress (разрешить весь исходящий трафик - включая DNS!)
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: allow-all-egress
+  namespace: task5
+spec:
+  podSelector: {}
+  policyTypes:
+    - Egress
+  egress:
+    - {}  # Пустой {} = разрешить ВСЕ egress (включая DNS!)
+
+---
+# Front-end ← Back-end API (Ingress: получать ответы от back-end-api)
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: allow-frontend-ingress-from-backend
+  namespace: task5
+spec:
+  podSelector:
+    matchLabels:
+      role: front-end
+  policyTypes:
+    - Ingress
+  ingress:
+    - from:
+        - podSelector:
+            matchLabels:
+              role: back-end-api
+      ports:
+        - protocol: TCP
+          port: 80
+
+---
+# Back-end API ← Front-end (Ingress: получать запросы от front-end)
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: allow-backend-ingress-from-frontend
+  namespace: task5
+spec:
+  podSelector:
+    matchLabels:
+      role: back-end-api
+  policyTypes:
+    - Ingress
+  ingress:
+    - from:
+        - podSelector:
+            matchLabels:
+              role: front-end
+      ports:
+        - protocol: TCP
+          port: 80
+
+---
+# Admin Front-end ← Admin Back-end API (Ingress: получать ответы от admin-back-end-api)
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: allow-admin-frontend-ingress-from-admin-backend
+  namespace: task5
+spec:
+  podSelector:
+    matchLabels:
+      role: admin-front-end
+  policyTypes:
+    - Ingress
+  ingress:
+    - from:
+        - podSelector:
+            matchLabels:
+              role: admin-back-end-api
+      ports:
+        - protocol: TCP
+          port: 80
+
+---
+# Admin Back-end API ← Admin Front-end (Ingress: получать запросы от admin-front-end)
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: allow-admin-backend-ingress-from-admin-frontend
+  namespace: task5
+spec:
+  podSelector:
+    matchLabels:
+      role: admin-back-end-api
+  policyTypes:
+    - Ingress
+  ingress:
+    - from:
+        - podSelector:
+            matchLabels:
+              role: admin-front-end
+      ports:
+        - protocol: TCP
+          port: 80
+
+---
+# Default Deny All Ingress (блокировать весь остальной входящий трафик)
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: default-deny-ingress
+  namespace: task5
+spec:
+  podSelector: {}
+  policyTypes:
+    - Ingress
+
