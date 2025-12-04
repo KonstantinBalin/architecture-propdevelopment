@@ -1,0 +1,104 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Страница-1" id="jcW8OLv86BtOHrgOeMYA">
+    <mxGraphModel dx="3466" dy="1413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="N4shJCrDnPNeLHp-2-NE-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N4shJCrDnPNeLHp-2-NE-1" target="N4shJCrDnPNeLHp-2-NE-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N4shJCrDnPNeLHp-2-NE-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N4shJCrDnPNeLHp-2-NE-1" target="N4shJCrDnPNeLHp-2-NE-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N4shJCrDnPNeLHp-2-NE-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N4shJCrDnPNeLHp-2-NE-1" target="N4shJCrDnPNeLHp-2-NE-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N4shJCrDnPNeLHp-2-NE-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N4shJCrDnPNeLHp-2-NE-1" target="N4shJCrDnPNeLHp-2-NE-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N4shJCrDnPNeLHp-2-NE-1" value="Безопасность данных" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N4shJCrDnPNeLHp-2-NE-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N4shJCrDnPNeLHp-2-NE-13" target="N4shJCrDnPNeLHp-2-NE-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="390" />
+              <mxPoint x="680" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N4shJCrDnPNeLHp-2-NE-13" value="Публичные данные (Public Data)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N4shJCrDnPNeLHp-2-NE-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N4shJCrDnPNeLHp-2-NE-15" target="N4shJCrDnPNeLHp-2-NE-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="470" />
+              <mxPoint x="710" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N4shJCrDnPNeLHp-2-NE-15" value="Внутренние данные (Internal Data)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N4shJCrDnPNeLHp-2-NE-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N4shJCrDnPNeLHp-2-NE-16" target="N4shJCrDnPNeLHp-2-NE-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="550" />
+              <mxPoint x="710" y="605" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N4shJCrDnPNeLHp-2-NE-16" value="Конфиденциальные данные (Confidential Data)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N4shJCrDnPNeLHp-2-NE-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N4shJCrDnPNeLHp-2-NE-17" target="N4shJCrDnPNeLHp-2-NE-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N4shJCrDnPNeLHp-2-NE-17" value="Секретные данные (Restricted/Secret Data)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N4shJCrDnPNeLHp-2-NE-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N4shJCrDnPNeLHp-2-NE-20" target="N4shJCrDnPNeLHp-2-NE-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N4shJCrDnPNeLHp-2-NE-20" value="&lt;ol&gt;&lt;li&gt;Информация о жилых комплексах на витрине продаж&lt;/li&gt;&lt;li&gt;Маркетинговые материалы компании&lt;/li&gt;&lt;li&gt;Пресс-релизы о новых объектах недвижимости&lt;/li&gt;&lt;li&gt;Общая информация о компании PropDevelopment&lt;/li&gt;&lt;li&gt;Контакты отделов продаж&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="750" y="280" width="410" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N4shJCrDnPNeLHp-2-NE-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N4shJCrDnPNeLHp-2-NE-22" target="N4shJCrDnPNeLHp-2-NE-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N4shJCrDnPNeLHp-2-NE-22" value="&lt;ol&gt;&lt;li&gt;Данные о бронированиях недвижимости&lt;/li&gt;&lt;li&gt;Результаты онлайн-туров и осмотров&lt;/li&gt;&lt;li&gt;Отчеты о продажах&lt;/li&gt;&lt;li&gt;Информация о запланированных работах по ремонту&lt;/li&gt;&lt;li&gt;История проведенных работ в ЖК&lt;/li&gt;&lt;li&gt;Внутренняя документация о бизнес-процессах&lt;/li&gt;&lt;li&gt;Данные о доступности объектов недвижимости&lt;/li&gt;&lt;li&gt;Каталог услуг управляющих компаний&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="750" y="380" width="410" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="N4shJCrDnPNeLHp-2-NE-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N4shJCrDnPNeLHp-2-NE-24" target="N4shJCrDnPNeLHp-2-NE-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N4shJCrDnPNeLHp-2-NE-24" value="&lt;ol&gt;&lt;li&gt;ФИО, телефон и email клиентов&lt;/li&gt;&lt;li&gt;Расширенная форма с данными клиентов для онлайн-сделки&lt;/li&gt;&lt;li&gt;Персональные данные собственников&lt;/li&gt;&lt;li&gt;Данные о платежах и счетах за ЖКУ&lt;/li&gt;&lt;li&gt;Финансовая информация клиентов&lt;/li&gt;&lt;li&gt;Данные аутентификации пользователей&lt;/li&gt;&lt;li&gt;Учетные записи сотрудников в Active Directory&lt;/li&gt;&lt;li&gt;Контакты и профили сотрудников&lt;/li&gt;&lt;li&gt;Данные CRM систем&lt;/li&gt;&lt;li&gt;Информация об управлении умным домом&lt;/li&gt;&lt;li&gt;Данные устройств контроля доступа в квартиры&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="750" y="520" width="410" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="N4shJCrDnPNeLHp-2-NE-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N4shJCrDnPNeLHp-2-NE-26" target="N4shJCrDnPNeLHp-2-NE-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N4shJCrDnPNeLHp-2-NE-26" value="&lt;div&gt;&lt;ol&gt;&lt;li&gt;ФИО, телефон и email клиентов&lt;/li&gt;&lt;li&gt;Расширенная форма с данными клиентов для онлайн-сделки&lt;/li&gt;&lt;li&gt;Персональные данные собственников&lt;/li&gt;&lt;li&gt;Данные о платежах и счетах за ЖКУ&lt;/li&gt;&lt;li&gt;Финансовая информация клиентов&lt;/li&gt;&lt;li&gt;Данные аутентификации пользователей&lt;/li&gt;&lt;li&gt;Учетные записи сотрудников в Active Directory&lt;/li&gt;&lt;li&gt;Контакты и профили сотрудников&lt;/li&gt;&lt;li&gt;Данные CRM систем&lt;/li&gt;&lt;li&gt;Информация об управлении умным домом&lt;/li&gt;&lt;li&gt;Данные устройств контроля доступа в квартиры&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="750" y="710" width="410" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="N4shJCrDnPNeLHp-2-NE-28" value="&lt;ol&gt;&lt;li&gt;Искажение данных [ЗНАЧИТЕЛЬНЫЙ]: Искажение публичной информации о недвижимости может привести к введению клиентов в заблуждение, судебным искам и репутационным потерям.​&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Некачественные данные [ЗНАЧИТЕЛЬНЫЙ]: Устаревшая или неполная информация о доступных объектах недвижимости снижает эффективность продаж и ухудшает имидж компании.​&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="285" width="595" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="N4shJCrDnPNeLHp-2-NE-30" value="&lt;div&gt;&lt;ol&gt;&lt;li&gt;Утечка данных [ЗНАЧИТЕЛЬНЫЙ]: Утечка внутренних данных к конкурентам может снизить конкурентные преимущества и привести к потере доли рынка.​&lt;/li&gt;&lt;li&gt;Потеря данных [ЗНАЧИТЕЛЬНЫЙ]: Потеря данных о бронированиях и онлайн-турах приведет к срыву сделок и прямым финансовым убыткам.​&lt;/li&gt;&lt;li&gt;Искажение данных [ЗНАЧИТЕЛЬНЫЙ]: Искажение данных о доступности объектов может привести к конфликтам с клиентами и судебным разбирательствам.​&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="387.5" width="600" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="N4shJCrDnPNeLHp-2-NE-32" value="&lt;div&gt;&lt;ol&gt;&lt;li&gt;Утечка данных [КРИТИЧЕСКИЙ]: Утечка персональных данных влечет многомиллионные оборотные штрафы по новым поправкам в КоАП, судебные иски, проверки Роскомнадзора, уголовную ответственность по ст.137 УК РФ и катастрофические репутационные потери. Конкурент уже пострадал от такой утечки.​​&lt;/li&gt;&lt;li&gt;Некачественные данные [КРИТИЧЕСКИЙ]: Компания уже столкнулась с проблемой отображения данных другого клиента в личном кабинете. Это критическая проблема, нарушающая закон о ПДн.​​&lt;/li&gt;&lt;li&gt;Потеря данных [КРИТИЧЕСКИЙ]: Потеря персональных данных сделает невозможным выполнение договорных обязательств и приведет к остановке бизнес-процессов.​&lt;/li&gt;&lt;li&gt;Искажение данных [КРИТИЧЕСКИЙ]: Искажение персональных данных может привести к несанкционированному доступу в жилые помещения, мошенничеству и серьезным нарушениям безопасности жильцов.&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1277.5" y="520" width="600" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="N4shJCrDnPNeLHp-2-NE-34" value="&lt;div&gt;&lt;ol&gt;&lt;li&gt;Утечка данных [КРИТИЧЕСКИЙ]: Утечка паспортных данных, платежной информации или данных сделок влечет максимальные штрафы (оборотные), уголовное преследование руководителей, массовое мошенничество с квартирами клиентов (как в случае с незаконной пропиской из новостей), полную потерю доверия и возможное банкротство компании.​&lt;/li&gt;&lt;li&gt;Искажение данных [КРИТИЧЕСКИЙ]: Искажение данных в системе онлайн-сделок или финансовой отчетности может привести к незаконным сделкам, финансовым махинациям, проблемам с налоговыми органами.​&lt;/li&gt;&lt;li&gt;Потеря данных [КРИТИЧЕСКИЙ]: Потеря данных о сделках и финансовой отчетности приведет к невозможности восстановить юридически значимые документы, что может парализовать бизнес.​&lt;/li&gt;&lt;li&gt;Обесценивание данных [КРИТИЧЕСКИЙ]: Обесценивание данных DWH блокирует развитие новых сервисов на базе BI/ML/AI, что является стратегической целью компании. Без качественных исторических данных невозможно извлечь знания.&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="700" width="600" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
